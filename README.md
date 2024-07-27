@@ -80,5 +80,3 @@
 | gemma-2-9b-it            | 9                   |                      | Gemma2 not supp |
 | Yi-1.5-9B-Chat-16K       | 9                   | 8                    | 5 sec           |
 | openchat-3.6-8b-20240522 | 8                   | 1                    | 1 sec           |
-| orca_mini_v7_7b          |                     |                      |                 |
-| neural-chat-7b-v3-2      |                     |                      |                 |

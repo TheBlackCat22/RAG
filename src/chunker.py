@@ -9,7 +9,7 @@ def chunk(documents_dir):
         strip_headers=False
     )
     recursive_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=3072, 
+            chunk_size=4000, 
             chunk_overlap=200
         )
 
