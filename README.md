@@ -15,6 +15,7 @@ Retrieval augmented generation, or RAG, is an architectural approach that can im
 
 # Usage
 1. Change parameters of the script at the top of `main.py`
+1. `WEBSITES` should be a list containing all the website urls from which you want to scrape data. (each website url should end with '/'. example 'https://www.google.com/' )
 1. The output of the `main.py` changes based on the value of the parameter `QUERY`
     - `QUERY` is a `str`: Returns all retrieved documents
     - `QUERY` is a `list`: Creates a conversational RAG pipeline and askes all the questions in the list.
