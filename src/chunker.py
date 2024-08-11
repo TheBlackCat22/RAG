@@ -24,7 +24,7 @@ def chunk(documents_dir):
                 content = f.read()
 
             for item in markdown_splitter.split_text(content):
-                chunks.append(Document(page_content=item.page_content, metadata={'Webpage': os.path.normpath(os.path.join('https://bot-docs.cloudfabrix.io/', rel_path, file[:-3])), 'Section' : ' -> '.join(item.metadata.values())}))
+                chunks.append(Document(page_content=item.page_content, metadata={'Webpage': os.path.normpath(os.path.join('root_website/', rel_path, file[:-3])), 'Section' : ' -> '.join(item.metadata.values())}))
 
     chunks = recursive_splitter.split_documents(chunks)
 
